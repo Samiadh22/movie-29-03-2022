@@ -1,7 +1,9 @@
 import React from 'react'
 import {Card,Button} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 function CustomCard({movie}) {
   return (
+    <Link to ={`/Movie/${movie.id}`}>
     <div >
         <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={movie.posterURL} />
@@ -15,6 +17,7 @@ function CustomCard({movie}) {
 
 </Card>
     </div>
+    </Link>
   )
 }
 

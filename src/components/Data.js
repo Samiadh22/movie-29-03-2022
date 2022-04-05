@@ -1,7 +1,7 @@
 //"Movies.js" constitutes the data used to initialise the array movies in "App.js"
 const Movies = [
     {
-      id: Math.random(), //added an "id": useful for generating keys when mapping and then routes
+      id : 1, //added an "id": useful for generating keys when mapping and then routes
       title: "Crimson Peak",
       description:
         "In the aftermath of a family tragedy, an aspiring author is torn between love for her childhood friend and the temptation of a mysterious outsider. Trying to escape the ghosts of her past, she is swept away to a house that breathes, bleeds - and remembers.",
@@ -21,7 +21,7 @@ const Movies = [
       ),
     },
     {
-      id: Math.random(),
+      id : 2,
       title: "The Good Place",
       description:
         "Four people and their otherworldly frienemy struggle in the afterlife to define what it means to be good.",
@@ -41,7 +41,7 @@ const Movies = [
       ),
     },
     {
-      id: Math.random(),
+      id : 3,
       title: "This Beautiful Fantastic",
       description:
         "A young woman who dreams of becoming a children's book author makes an unlikely friendship with a cantankerous, rich old widower.",
@@ -61,7 +61,7 @@ const Movies = [
       ),
     },
     {
-      id: Math.random(),
+      id : 4,
       title: "Penny Dreadful",
       description:
         "Explorer Sir Malcolm Murray, American gunslinger Ethan Chandler, scientist Victor Frankenstein and medium Vanessa Ives unite to combat supernatural threats in Victorian London.",
@@ -81,7 +81,7 @@ const Movies = [
       ),
     },
     {
-      id: Math.random(),
+      id : 5,
       title: "The Silence of the Lambs",
       description:
         "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
@@ -102,7 +102,7 @@ const Movies = [
     },
   
     {
-      id: Math.random(),
+      id : 6,
       title: "Zoey's Extraordinary Playlist ",
       description:
         "A young woman discovers she has the ability to hear the innermost thoughts of people around her as songs and musical numbers.",
@@ -122,7 +122,7 @@ const Movies = [
       ),
     },
     {
-      id: Math.random(),
+      id : 7,
       title: "The Room",
       description:
         "Johnny is a successful bank executive who lives quietly in a San Francisco townhouse with his fiancée, Lisa. One day, putting aside any scruple, she seduces Johnny's best friend, Mark. From there, nothing will be the same again.",
@@ -142,7 +142,7 @@ const Movies = [
       ),
     },
     {
-      id: Math.random(),
+      id : 8,
       title: "Cats",
       description:
         "A tribe of cats called the Jellicles must decide yearly which one will ascend to the Heaviside Layer and come back to a new Jellicle life.",
@@ -162,7 +162,7 @@ const Movies = [
       ),
     },
     {
-      id: Math.random(),
+      id : 9,
       title: "The Shawshank Redemption",
       description:
         "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
@@ -182,7 +182,7 @@ const Movies = [
       ),
     },
     {
-      id: Math.random(),
+      id : 10,
       title: "The Good Doctor",
       description:
         "Shaun Murphy, a young surgeon with autism and Savant syndrome, is recruited into the surgical unit of a prestigious hospital.",
